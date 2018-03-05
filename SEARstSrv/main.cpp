@@ -15,7 +15,7 @@
 
 
 bool bMainThreadStopped = false;            // set to true to stop Main thread
-bool bServiceThreadStopped = false;         // set to true to stop Main thread
+bool bServiceThreadStopped = false;         // set to true to stop Service thread
 char ExecPath[256] = "";
 char LogPath[256] = "";
 char IniFileName[256] = "";
@@ -188,9 +188,9 @@ int SeaSculRstSrv_Start(int argc, char **argv)
     //sprintf(s, "%sLog\\", ExecPath);
     CreateDirectory(LogPath, NULL);
 #endif
-    //SetLogPath(s);                                  // ”казываем, куда писать логи
+    //SetLogPath(s);                                  // (linux) ”казываем, куда писать логи
 #endif
-    Logger.SetLogFilePath(LogPath);                   // ”казываем, куда писать логи
+    Logger.SetLogFilePath(LogPath);                   // (win) ”казываем, куда писать логи
     Logger.SetLogFilePrefix("RST");
 
     Logger.LogMessage("===============================================================================", LOG_WRK1);
@@ -214,13 +214,13 @@ int SeaSculRstSrv_Start(int argc, char **argv)
 
         bServiceThreadStopped = false;
         bMainThreadStopped = false;
-        // cсоздаем основную нитку 
+        // cсоздаем сервисную нитку 
         hServiceThread = CreateThread(
-            NULL,                                     /* no security attributes */
-            0,                                        /* use default stack size */
+            NULL,                                       /* no security attributes */
+            0,                                          /* use default stack size */
             (LPTHREAD_START_ROUTINE)ServiceCycleThread, /* thread function */
-            NULL,                                     /* argument to thread function */
-            CREATE_SUSPENDED,                         /* creation flags */
+            NULL,                                       /* argument to thread function */
+            CREATE_SUSPENDED,                           /* creation flags */
             &dwThreadId);
         if (hServiceThread) {
             ErrCod = -2;
@@ -237,7 +237,7 @@ int SeaSculRstSrv_Start(int argc, char **argv)
             hMainThread = CreateThread(
                 NULL,                                     /* no security attributes */
                 0,                                        /* use default stack size */
-                (LPTHREAD_START_ROUTINE)MainCycleThread, /* thread function */
+                (LPTHREAD_START_ROUTINE)MainCycleThread,  /* thread function */
                 NULL,                                     /* argument to thread function */
                 CREATE_SUSPENDED,                         /* creation flags */
                 &dwThreadId);
