@@ -1,0 +1,11 @@
+
+База	Elevators
+Таблица RTU
+
+DB		rtusysno	rtucomno	
+RTU		Address		Link Addres
+V2M func	GetDevNo	GetDevSno
+
+		номер КП	связной 
+		в системе	номер КП
+		(уникальный)	(может повторяться)

@@ -1,0 +1,146 @@
+ 18:20:50.842 ===============================================================================
+ 18:20:50.843 Starting Rst Service (build Jan 26 2018 18:13:24)
+ 18:20:50.844 ExecPath: D:\TEST2\SEA_RTS_SRV\Debug\
+ 18:20:50.868 Connected to Elevators_ds OK
+ 18:20:50.869 TimeOutThreshold: 300
+ 18:20:50.870 RstAttemptInterval: 60
+ 18:20:50.870 start service cycle.
+ 18:20:50.871 start main cycle.
+ 18:20:51.881 rtur:27 tout 25445 sec try reset by +380633210329
+ 18:25:50.405 stoping SEA Rst Service...
+ 18:25:51.957 service cycle stoped.
+ 18:25:53.406 SEA Rst Service stoped.
+ 18:27:12.204 ===============================================================================
+ 18:27:12.206 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 18:27:12.208 ExecPath: d:\TEST2\SEA_RTS_SRV\Debug\
+ 18:27:12.365 Connected to Elevators_ds OK
+ 18:27:12.366 TimeOutThreshold: 300
+ 18:27:12.367 RstAttemptInterval: 60
+ 18:27:12.368 start service cycle.
+ 18:27:12.369 start main cycle.
+ 18:27:12.400 rtur:27 tout 25825 sec try reset by +380633210329
+ 18:27:32.051 stoping SEA Rst Service...
+ 18:27:34.370 service cycle stoped.
+ 18:27:35.053 SEA Rst Service stoped.
+ 18:27:41.224 ===============================================================================
+ 18:27:41.230 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 18:27:41.231 ExecPath: d:\TEST2\SEA_RTS_SRV\Debug\
+ 18:27:41.441 Connected to Elevators_ds OK
+ 18:27:41.442 TimeOutThreshold: 300
+ 18:27:41.443 RstAttemptInterval: 60
+ 18:27:41.445 start service cycle.
+ 18:27:41.447 start main cycle.
+ 18:27:41.471 rtur:27 tout 25854 sec try reset by +380633210329
+ 18:28:27.184 ===============================================================================
+ 18:28:27.185 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 18:28:27.185 ExecPath: d:\TEST2\SEA_RTS_SRV\Debug\
+ 18:28:27.336 Connected to Elevators_ds OK
+ 18:28:27.337 TimeOutThreshold: 300
+ 18:28:27.338 RstAttemptInterval: 60
+ 18:28:27.340 start service cycle.
+ 18:28:33.851 start main cycle.
+ 18:28:33.875 rtur:27 tout 25906 sec try reset by +380633210329
+ 18:28:44.071 rtur:27 attempt failed!
+ 18:28:44.173 rtur:70 tout 568 sec try reset by +380633210346
+ 18:29:06.649 ===============================================================================
+ 18:29:06.650 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 18:29:06.651 ExecPath: D:\TEST2\SEA_RTS_SRV\Debug\
+ 18:29:06.669 Connected to Elevators_ds OK
+ 18:29:06.670 TimeOutThreshold: 300
+ 18:29:06.670 RstAttemptInterval: 60
+ 18:29:06.671 start service cycle.
+ 18:29:06.672 start main cycle.
+ 18:29:06.682 rtur:70 tout 590 sec try reset by +380633210346
+ 18:29:11.304 rtur:70 attempt failed!
+ 18:29:44.016 stoping SEA Rst Service...
+ 18:29:44.420 service cycle stoped.
+ 18:29:44.674 service cycle stoped.
+ 18:29:47.018 SEA Rst Service stoped.
+ 18:29:53.934 ===============================================================================
+ 18:29:53.935 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 18:29:53.936 ExecPath: D:\TEST2\SEA_RTS_SRV\Debug\
+ 18:29:53.954 Connected to Elevators_ds OK
+ 18:29:53.955 TimeOutThreshold: 300
+ 18:29:53.955 RstAttemptInterval: 30
+ 18:29:53.956 start service cycle.
+ 18:29:53.957 start main cycle.
+ 18:29:53.974 rtur:27 tout 25987 sec try reset by +380633210329
+ 18:29:59.355 rtur:27 attempt failed!
+ 18:30:11.462 rtur:70 tout 655 sec try reset by +380633210346
+ 18:30:17.373 rtur:70 attempt failed!
+ 18:30:26.638 stoping SEA Rst Service...
+ 18:30:27.477 service cycle stoped.
+ 18:30:27.979 service cycle stoped.
+ 18:30:29.639 SEA Rst Service stoped.
+ 18:33:48.447 ===============================================================================
+ 18:33:48.448 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 18:33:48.449 ExecPath: d:\TEST2\SEA_RTS_SRV\Debug\
+ 18:33:48.628 Connected to Elevators_ds OK
+ 18:33:48.629 TimeOutThreshold: 300
+ 18:33:48.631 RstAttemptInterval: 30
+ 18:33:48.633 start service cycle.
+ 18:33:48.634 start main cycle.
+ 18:33:48.643 rtur:27 tout 26221 sec try reset by +380633210329
+ 18:33:48.644 COM1: port open error! 
+ 18:33:48.645 rtur:27 attempt failed!
+ 18:33:48.748 rtur:70 tout 872 sec try reset by +380633210346
+ 18:33:48.749 COM1: port open error! 
+ 18:33:48.751 rtur:70 attempt failed!
+ 18:34:18.860 rtur:27 tout 26251 sec try reset by +380633210329
+ 18:34:24.198 rtur:70 tout 908 sec try reset by +380633210346
+ 18:34:54.538 rtur:27 tout 26287 sec try reset by +380633210329
+ 18:39:21.445 ===============================================================================
+ 18:39:21.446 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 18:39:21.447 ExecPath: d:\TEST2\SEA_RTS_SRV\Debug\
+ 18:39:21.616 Connected to Elevators_ds OK
+ 18:39:21.617 TimeOutThreshold: 300
+ 18:39:21.618 RstAttemptInterval: 30
+ 18:39:21.619 start service cycle.
+ 18:39:21.620 start main cycle.
+ 18:39:21.633 rtur:27 tout 26554 sec try reset by +380633210329
+ 18:39:21.634 COM1: port open error! 
+ 18:39:21.635 rtur:27 attempt failed!
+ 18:39:21.737 rtur:70 tout 1205 sec try reset by +380633210346
+ 18:39:21.738 COM1: port open error! 
+ 18:39:21.739 rtur:70 attempt failed!
+ 18:39:51.842 rtur:27 tout 26584 sec try reset by +380633210329
+ 18:39:57.168 rtur:70 tout 1241 sec try reset by +380633210346
+ 18:41:02.039 ===============================================================================
+ 18:41:02.040 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 18:41:02.041 ExecPath: d:\TEST2\SEA_RTS_SRV\Debug\
+ 18:41:02.182 Connected to Elevators_ds OK
+ 18:41:02.183 TimeOutThreshold: 300
+ 18:41:02.184 RstAttemptInterval: 30
+ 18:41:02.186 start service cycle.
+ 18:41:02.187 start main cycle.
+ 18:41:02.206 rtur:27 tout 26655 sec try reset by +380633210329
+ 18:41:07.834 rtur:27 attempt failed!
+ 18:41:07.936 rtur:70 tout 1311 sec try reset by +380633210346
+ 18:41:14.711 rtur:70 attempt failed!
+ 18:41:37.819 rtur:27 tout 26690 sec try reset by +380633210329
+ 18:42:15.991 ===============================================================================
+ 18:42:15.993 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 18:42:15.994 ExecPath: d:\TEST2\SEA_RTS_SRV\Debug\
+ 18:42:16.146 Connected to Elevators_ds OK
+ 18:42:16.147 TimeOutThreshold: 300
+ 18:42:16.148 RstAttemptInterval: 30
+ 18:42:16.150 start service cycle.
+ 18:42:16.150 start main cycle.
+ 18:42:16.162 rtur:27 tout 26729 sec try reset by +380633210329
+ 18:42:29.614 rtur:70 tout 1393 sec try reset by +380633210346
+ 18:42:59.233 rtur:27 tout 26772 sec try reset by +380633210329
+ 18:43:07.629 rtur:27 attempt failed!
+ 18:43:37.734 rtur:27 tout 26810 sec try reset by +380633210329
+ 18:44:07.446 ===============================================================================
+ 18:44:07.447 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 18:44:07.449 ExecPath: D:\TEST2\SEA_RTS_SRV\Debug\
+ 18:44:07.469 Connected to Elevators_ds OK
+ 18:44:07.470 TimeOutThreshold: 300
+ 18:44:07.471 RstAttemptInterval: 30
+ 18:44:07.472 start service cycle.
+ 18:44:07.473 start main cycle.
+ 18:44:22.485 rtur:27 tout 26855 sec try reset by +380633210329
+ 18:44:42.894 stoping SEA Rst Service...
+ 18:44:43.685 service cycle stoped.
+ 18:44:44.475 service cycle stoped.
+ 18:44:45.896 SEA Rst Service stoped.

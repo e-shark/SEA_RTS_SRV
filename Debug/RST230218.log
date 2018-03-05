@@ -1,0 +1,53 @@
+ 17:20:09.334 ===============================================================================
+ 17:20:09.335 Starting Rst Service (build Jan 26 2018 18:27:09)
+ 17:20:09.336 ExecPath: D:\TEST2\SEA_RTS_SRV\Debug\
+ 17:20:09.365 Connected to Elevators_ds OK
+ 17:20:09.366 TimeOutThreshold: 300
+ 17:20:09.367 RstAttemptInterval: 30
+ 17:20:09.368 start service cycle.
+ 17:20:09.369 COM1: change COM from 9600 to 115200
+ 17:20:09.370 start main cycle.
+ 17:55:11.276 ===============================================================================
+ 17:55:11.278 Starting Rst Service (build Feb 23 2018 17:55:04)
+ 17:55:11.280 ExecPath: D:\TEST2\SEA_RTS_SRV\Debug\
+ 17:55:11.445 Connected to Elevators_ds OK
+ 17:55:11.446 TimeOutThreshold: 300
+ 17:55:11.447 RstAttemptInterval: 30
+ 17:55:11.448 start service cycle.
+ 17:55:11.449 COM1: change COM from 9600 to 115200
+ 17:55:29.823 start main cycle.
+ 17:58:06.238 ===============================================================================
+ 17:58:06.239 Starting Rst Service (build Feb 23 2018 17:55:04)
+ 17:58:06.240 ExecPath: D:\TEST2\SEA_RTS_SRV\Debug\
+ 17:58:06.408 Connected to Elevators_ds OK
+ 17:58:06.409 TimeOutThreshold: 300
+ 17:58:06.410 RstAttemptInterval: 30
+ 17:58:06.411 start service cycle.
+ 17:58:06.412 COM1: change COM from 9600 to 115200
+ 17:58:14.765 start main cycle.
+ 18:30:27.722 ===============================================================================
+ 18:30:27.723 Starting Rst Service (build Feb 23 2018 18:30:25)
+ 18:30:27.724 ExecPath: D:\TEST2\SEA_RTS_SRV\Debug\
+ 18:30:27.948 Connected to Elevators_ds OK
+ 18:30:27.949 TimeOutThreshold: 300
+ 18:30:27.950 RstAttemptInterval: 30
+ 18:30:27.953 start service cycle.
+ 18:30:27.954 COM1: change COM from 9600 to 115200
+ 18:30:41.561 v2m dataSource attached
+ 18:30:41.562 start main cycle.
+ 18:30:41.693 rtur:27 tout 2042 sec try reset by +380633210329
+ 18:30:41.795 COM1: port open
+ 18:30:41.896 COM1: Commander: send 'ATQ0E0\r\n'
+ 18:30:42.397 COM1: Commander: send 'ATD+380633210329;\r\n'
+ 18:31:13.565 v2m dataSource detached
+ 18:31:45.481 ===============================================================================
+ 18:31:45.483 Starting Rst Service (build Feb 23 2018 18:30:25)
+ 18:31:45.484 ExecPath: D:\TEST2\SEA_RTS_SRV\Debug\
+ 18:31:45.629 Connected to Elevators_ds OK
+ 18:31:45.630 TimeOutThreshold: 300
+ 18:31:45.631 RstAttemptInterval: 30
+ 18:31:45.632 start service cycle.
+ 18:31:45.633 COM1: change COM from 9600 to 115200
+ 18:31:45.634 start main cycle.
+ 18:32:37.637 v2m dataSource attached
+ 18:33:07.642 v2m dataSource detached
