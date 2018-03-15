@@ -138,9 +138,9 @@ int SeaSculRstSrv_Start(int argc, char **argv)
     else
         memset(ExecPath, 0, sizeof(ExecPath));
 
-    sprintf(IniFileName, "%sSEASrv.ini", ExecPath);                                                         // Вычисляем имя .ini файла
+    sprintf(IniFileName, "%sSEARstSrv.ini", ExecPath);                                                      // Вычисляем имя .ini файла
 
-    cuGetPrivateProfileString("INIT", "RTUDBSTRING", "Elevators_ds", s, sizeof(s), IniFileName);            // Логический адрес девайса диспетчерской (от этого имени посылаются пакеты лифтовым контроллерам)
+    cuGetPrivateProfileString("RSTSRV", "RTUDBSTRING", "Elevators_ds", s, sizeof(s), IniFileName);          // Имя ODBC для подключения к
     strtrim(s);
     sprintf(DBCONNSTRING, "%s", s);
 
@@ -171,7 +171,7 @@ int SeaSculRstSrv_Start(int argc, char **argv)
 
     Logger.SetLogMask(gLOG_FILE_MASK, gLOG_CON_MASK, gLOG_DB_MASK);
 
-    cuGetPrivateProfileString("INIT", "LogPath", ExecPath, s, sizeof(s), IniFileName);                      // Путь, где будет записан LOG файл
+    cuGetPrivateProfileString("RSTSRV", "LogPath", ExecPath, s, sizeof(s), IniFileName);                      // Путь, где будет записан LOG файл
     strtrim(s);
     sprintf(LogPath, "%s", s);
 
